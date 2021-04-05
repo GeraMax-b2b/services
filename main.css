@@ -138,6 +138,26 @@ text-decoration: underline;
   margin-bottom: 44px;  
 }
  
+/* Услуги */
+.hero__title{
+ 
+width: 258px;
+height: 98px;
+left: 390px;
+top: 168px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+ 
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+
 
 
 
