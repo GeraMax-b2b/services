@@ -140,3 +140,38 @@ text-decoration: underline;
   margin-bottom: 44px;  
 }
  
+
+
+
+
+
+
+.footer {
+   
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.socials {
+  display: inline flex;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.socials__item:last-child{
+  margin-right: 0;
+}
+.socials__icon {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+   
+}
