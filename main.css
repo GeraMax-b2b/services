@@ -1,0 +1,156 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;  
+  color: #fff;  
+  background: #29292c; 
+  background-image: url(./img/headline.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center;  
+  background-size: contain;
+}
+  
+}
+
+a{
+  color: #fff; 
+  text-decoration: none;
+
+}
+.menu__item a:hover{
+  color: red;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+
+ .container{
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+}
+
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;    
+}
+
+.main__page--wrapper{
+}
+.wrapper__content{
+  width: 1143px;
+  margin: 0 auto;
+}
+.header{
+   
+   height: 150px;  
+   margin-bottom: 45px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+.header__part{
+  display: flex;
+  align-items: center;
+}
+
+.header__part header__part--align--right{
+  justify-content: flex-end;
+}
+
+.logo{
+   display: block;
+ }
+
+ .menu {
+   font-size: 14px;
+   color: #fff;
+ }
+
+ .menu__item{
+  display: inline-block;
+  margin-right: 52px;
+  
+}
+ 
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__link{
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+}
+ 
+ .contacts {
+  font-style: normal;   
+  text-align: right;
+}
+.contacts__phone{
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.contacts__info{
+  font-size: 13px;
+  text-decoration: underline; 
+}
+.contacts__dropdown-title{
+font-size: 13px;
+text-decoration: underline;  
+ 
+}
+
+.contacts__desk {
+  color: #9a9a9a;
+  font-size: 11px;
+ }
+ .hero__text-section {
+  width: 38%;
+}
+
+.hero-title{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 98px;
+  margin-bottom: 18px; 
+}
+ 
+.hero__subtitle{
+  font-size: 14px;
+  margin-bottom: 44px;  
+}
+.btn{
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 17px 38px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover{
+background:  #F5170E;
+box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}
